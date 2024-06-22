@@ -14,9 +14,6 @@ document.addEventListener("DOMContentLoaded", function () {
                 window.scrollTo({
                     top: offsetTop,
                     behavior: 'smooth'
-                  $(function() {
-                        $("#floating-video").draggable();
-                    });
             });
     }
 });
